@@ -1,29 +1,34 @@
 {
   "name": "assignment-evaluator",
   "version": "1.0.0",
+  "description": "AI Assignment Evaluator Backend",
   "main": "index.js",
+
+  "type": "commonjs",
+
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
+
   "keywords": [],
-  "author": "",
+  "author": "Shanmukh",
   "license": "ISC",
-  "description": "",
+
+  "engines": {
+    "node": ">=18"
+  },
+
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "body-parser": "^2.2.2",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "mongoose": "^9.2.1",
+    "mongoose": "^9.2.1"
+  },
+
+  "devDependencies": {
     "nodemon": "^3.1.11"
   }
 }
-```
-
-Save the file, then run:
-```
-git add .
-git commit -m "Add start script for deployment"
-git push
