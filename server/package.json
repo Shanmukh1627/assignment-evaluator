@@ -1,5 +1,5 @@
 {
-  "name": "assignment-evaluator",
+  "name": "assignment-evaluator-server",
   "version": "1.0.0",
   "description": "AI Assignment Evaluator Backend",
   "main": "index.js",
@@ -7,28 +7,21 @@
   "type": "commonjs",
 
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
 
-  "keywords": [],
   "author": "Shanmukh",
   "license": "ISC",
 
   "engines": {
-    "node": ">=18"
+    "node": "18.x"
   },
 
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
-    "body-parser": "^2.2.2",
-    "cors": "^2.8.6",
+    "cors": "^2.8.5",
     "dotenv": "^17.3.1",
-    "express": "^5.2.1",
-    "mongoose": "^9.2.1"
-  },
-
-  "devDependencies": {
-    "nodemon": "^3.1.11"
+    "express": "^5.0.0",
+    "mongoose": "^8.0.0"
   }
 }
